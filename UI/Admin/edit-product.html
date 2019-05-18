@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Greatwall | Add product</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body class="container bg-1">
+<div class="navbar fx-d fx-col fx-col-rwd fx-j-btw fx-ct-items pd-8 robo-font">
+    <div class="navbar-brand">
+        <a href="../index.html" class="text-dark txt-cap">Home<span class="small">The GreatWall</span></a>
+    </div>
+
+    <div class="fx-d">
+        <a href="dashboard.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
+        <a href="../index.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fas fa-sign-out-alt fa-fw"></i> <span>Log out</span></a>
+    </div>
+</div>
+
+<div class="fx-d fx-col fx-col-rwd fx-j-ard pd-8">
+    <div class="card card-hover bg-white rd-8 pd-16">
+        <form class="">
+            <h3 class="c-blue-1 txt-cap txt-ct">Edit product details</h3>
+            <label for="product-name" class="c-blue-1">Product name:</label><br>
+            <input type="text" class="form-input rd-8" id="product-name" name="product-name" placeholder="Product name">
+            <label for="mini-description" class="c-blue-1">Short Description:</label><br>
+            <input type="text" class="form-input rd-8" id="mini-description" name="mini-description" placeholder="Short description">
+            <span class="c-blue-1">Choose category:  </span>
+            <div class="">
+                <select class="">
+                    <option value="0">Others</option>
+                    <option value="1">1366x768</option>
+                    <option value="2">4k</option>
+                    <option value="3">Asphalt</option>
+                    <option value="4">Aston</option>
+                    <option value="5">bacgrounds</option>
+                    <option value="6">DirtRace</option>
+                    <option value="7">MBuntu-wallpapers</option>
+                </select>
+            </div>
+            <p class="c-blue-1">Product Description: </p>
+            <textarea rows="20" cols="60" class=""></textarea><br>
+           <!-- <label for="price" class="c-blue-1">Set price:</label>
+            <input type="number" class="form-input rd-8" name="product-price" id="price" placeholder="Enter price">-->
+            <label for="dimesion" class="c-blue-1">set dimesions</label>
+            <input type="tel" class="form-input rd-8" name="dimesions" id="dimesions" placeholder="Enter dimesions">
+
+            <div class="btn btn-sm btn-c-1 pd-8 rd-8">
+                <input type="file" name="file" id="file" class="file-input" accept="image/*" required>
+                <label for="file">Upload Image</label>
+            </div>
+
+            <div class="fx-d fx-j-end pd-8">
+                <button type="reset" class="btn btn-c-1 btn-md rd-8 txt-cap mr-lr">discard</button>
+                <button type="submit" class="btn btn-c-1 btn-md rd-8 txt-cap"><i class="fas fa-check fa-fw"></i>  load edit</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+</body>
+</html>
