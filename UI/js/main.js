@@ -23,12 +23,12 @@ function hidePassword() {
 
 document.getElementById("foot01").innerHTML =
 "<p>&copy;  " + new Date().getFullYear() + ".All rights reserved.</p>";
-/*document.getElementById("nav").innerHTML =
+document.getElementById("nav").innerHTML =
 "<ul id='menu'>" +
 "<li><a href='index.html'>Home</a></li>" +
-"<li><a href='entries.html'>entries</a></li>" +
+//"<li><a href='entries.html'>entries</a></li>" +
 "<li><a href='about.html'>About</a></li>" +
-"<li><a href='edit.html'>Edit</a></li>" +
-"<li><a href='profile.html'>profile</a></li>" +
+//"<li><a href='edit.html'>Edit</a></li>" +
+//"<li><a href='../user/usser-profile.html'>profile</a></li>" +
 //>>>>>>> e315ab5e34d5413946d86e8c87c9807b34081c57
 "</ul>"; */
