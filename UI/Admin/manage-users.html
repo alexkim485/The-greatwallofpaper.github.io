@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The GreatWall | User Management</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body class="container bg-1">
+<div class="navbar fx-d fx-col fx-col-rwd fx-j-btw fx-ct-items pd-8 robo-font">
+    <div class="navbar-brand">
+        <a href="../index.html" class="text-dark txt-cap">Home<span class="small">The GreatWall</span></a>
+    </div>
+
+    <div class="fx-d">
+        <a href="dashboard.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
+        <a href="../index.html" class="btn btn-c-1 btn-sm rd-8 mr-lr"><i class="fas fa-sign-out-alt fa-fw"></i> <span>Log out</span></a>
+    </div>
+</div>
+
+<div class="fx-d fx-col fx-col-rwd fx-col-rv fx-ct-items fx-j-ct fx-j-ard">
+    <div class="fx-7 card bg-white mr-16 pd-16 rd-8 txt-l-rwd">
+        <h3 class="txt-cap c-blue-1">All users: </h3>
+        <hr>
+        <p>switch between users</p>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Admin</th>
+            </tr>
+            <tr>
+                <td>Admin</td>
+                <td>
+                    <label class="switch pst-rv">
+                        <input type="checkbox" class="hide" checked>
+                        <span class="slider round pst-abs"></span>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Bender</td>
+                <td>
+                    <label class="switch pst-rv">
+                        <input type="checkbox" class="hide">
+                        <span class="slider round pst-abs"></span>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Davinci</td>
+                <td>
+                    <label class="switch pst-rv">
+                        <input type="checkbox" class="hide" checked>
+                        <span class="slider round pst-abs"></span>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>monalisa</td>
+                <td>
+                    <label class="switch pst-rv">
+                        <input type="checkbox" class="hide">
+                        <span class="slider round pst-abs"></span>
+                    </label>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="fx-5 card bg-white mr-16 rd-8 pd-16">
+        <h2 class="txt-ct txt-cap c-blue-1">Register new user</h2>
+        <form>
+            <label for="username" class="hide"> Username: </label>
+            <input class="form-input rd-8" id="username" name="uname" placeholder="Username">
+            <label for="password" class="hide">Password: </label>
+            <input class="form-input rd-8" type="password" id="password" name="pwd" placeholder="Enter password">
+            <label for="password-confirm" class="hide">Password: </label>
+            <input class="form-input rd-8" type="password" id="password-confirm" name="pwd" placeholder="Confirm password">
+
+            <label for="attendant-radio" class="label c-blue-1 pst-rv">Attendant
+                <input type="radio" name="status" id="attendant-radio" class="opacity-0 pst-abs" checked>
+                <span class="pst-abs checkmark"></span>
+            </label>
+
+            <label for="admin-radio" class="label c-blue-1 pst-rv">Administrator
+                <input type="radio" name="status" id="admin-radio" class="opacity-0 pst-abs">
+                <span class="pst-abs checkmark"></span>
+            </label>
+
+            <button type="submit" class="btn btn-md btn-blk btn-c-1 rd-8 txt-cap">Register</button>
+        </form>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
+</body>
+</html>
